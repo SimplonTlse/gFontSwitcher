@@ -1,8 +1,10 @@
 <?php require 'header.part.php'; ?>
-
+<!-- on inclue notre header pour ne pas avoir à le remodifier sur chaque page,
+pareil plus bas avec le footer -->
 <h1>G font dummy switcher</h1>
 
 <menu>
+	<!-- la fonction qui génère notre menu -->
 	<?php makeMenu() ?>
 </menu>
 
