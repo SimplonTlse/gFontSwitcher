@@ -8,7 +8,9 @@
 href='https://fonts.googleapis.com/css?family=<?php echo getFont(); ?>' 
 rel='stylesheet' 
 type='text/css'>
-
+<!-- à part dans certains cas de figures précis, il faut éviter d'avoir une balise style dans votre head
+car contrairement au feuilles de styles, il ne sera pas mis en cache.
+Ca tombe bien, on a un de ces cas de figures ! -->
 <style>
 	.copy {
 		font-family: <?php echo getFont(); ?>;
